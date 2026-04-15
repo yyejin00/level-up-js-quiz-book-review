@@ -35,3 +35,9 @@ console.log(message);
 console.log(String.raw`오늘의 날씨는 ${weather}\n현재 기온은 ${temp}도입니다.`);
 
 console.log(String.raw`${message}`);
+
+console.log(9999999999999999);
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(Number.MAX_SAFE_INTEGER + 2);
+// console.log(BigInt(Number.MAX_SAFE_INTEGER) + 2);
+console.log(BigInt(Number.MAX_SAFE_INTEGER) + BigInt(2));
